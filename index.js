@@ -1,4 +1,4 @@
-let moods = ["Falling In Love Vibe", "Sad", "Energetic", "Ready For The Day"]
+let moods = ["Falling In Love", "Sad", "Energetic", "Powerful", "Happy", "Inspiring", "Healing", "Chill", "Angry"]
 
 function generateMoods() {
     console.log(111)
