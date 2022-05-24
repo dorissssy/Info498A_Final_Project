@@ -10,18 +10,10 @@ html {
   box-sizing: inherit;
 }
 
-/* body {
-  background-image: url("../imgs/background.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-} */
-/* h1 {
-  font-family: 'Outfit', sans-serif;
-  text-align: center;
-  font-size: 60px !important;
-  margin-top: 220px !important;
-  font-weight: 900 !important;
-} */
+body {
+  font-family: 'Outfit', sans-serif !important;
+}
+
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -60,4 +52,15 @@ html {
     border-radius: 50px;
     margin: auto;
     border: none;
+    font-size: 20px;
+  }
+
+  .mood_btn {
+    background: #BCA6C7 !important;
+    border: none !important;
+    border-radius: 50px !important;
+  }
+  
+  label, h4 {
+    color: #3A2B43 !important;
   }

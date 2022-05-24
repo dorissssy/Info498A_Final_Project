@@ -2,33 +2,39 @@
     {
       "id": 0,
       "eng_track_title": "Intro: 2 Cool 4 Skool (ft. DJ Friz)",
-      "mood": ["Falling In Love Vibe", "Sad"]
+      "mood": ["Falling In Love", "Sad"],
+      "embed_link": "https://www.youtube.com/embed/JiAAkR53Vcw"
     },
     {
       "id": 1,
       "eng_track_title": "We Are Bulletproof Pt.2",
-      "mood": ["Sad"]
+      "mood": ["Sad"],
+      "embed_link": "https://www.youtube.com/embed/gdZLi9oWNZg"
     },
     {
       "id": 2,
       "eng_track_title": "Skit: Circle Room Talk",
-      "mood": ["Energetic"]
+      "mood": ["Energetic"],
+      "embed_link": "https://www.youtube.com/embed/gdZLi9oWNZg"
     },
     {
       "id": 3,
       "eng_track_title": "No More Dream",
-      "mood": ["Ready For The Day", "Energetic"]
+      "mood": ["Energetic"],
+      "embed_link": "https://www.youtube.com/embed/gdZLi9oWNZg"
 
     },
     {
       "id": 4,
       "eng_track_title": "Interlude",
-      "mood": ["Sad", "Energetic"]
+      "mood": ["Sad", "Energetic"],
+      "embed_link": "https://www.youtube.com/embed/gdZLi9oWNZg"
 
     },
     {
       "id": 5,
       "eng_track_title": "I Like It",
-      "mood": ["Falling In Love Vibe"]
+      "mood": ["Falling In Love"],
+      "embed_link": "https://www.youtube.com/embed/tgbNymZ7vqY"
     }
 ]

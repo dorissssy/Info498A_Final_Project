@@ -11,16 +11,31 @@
 </head>
 <body>
     <div class="topnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="explore.html">Explore</a>
-        <a href="">Datasets</a>
+        <a class="nav_btn" href="index.html">Home</a>
+        <a class="nav_btn active" href="explore.html">Explore</a>
+        <a class="nav_btn" href="datasets.html">Datasets</a>
       </div>
-    <div class="moodContainer">
+      <h4 style="text-align: center; margin-top: 50px;">Select Your Mood And Get Random Songs From BTS</h4>
+    <div class="moodContainer" style="text-align: center; margin-top: 20px;">
     </div>
-    <div class="songContainer">
+    <div class="dropdown" style="text-align: center; margin-top: 20px;">
+        <label for="numbers">Choose a #:</label>
+
+        <select name="cars" id="numbers">
+          <option value=1>1</option>
+          <option value=5>5</option>
+          <option value=10>10</option>
+          <option value="all">All</option>
+        </select>
     </div>
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <div class="songContainer" style="text-align: center; margin-top: 20px;" >
+    </div>
+    
+    
+
+    
+    <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
