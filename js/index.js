@@ -77,7 +77,9 @@ function loadSongs(mood) {
             // let songID = Math.floor(Math.random() * song_arr.length);
             // let songTitle = song_arr[songID];
             let ele = document.createElement('h4');
-            ele.innerHTML = song_arr[i];
+            let inner = document.createElement('span')
+            inner.innerHTML = song_arr[i];
+            ele.appendChild(inner);
             ele.classList.add('song');
             parent.appendChild(ele);
         }
@@ -86,7 +88,9 @@ function loadSongs(mood) {
             let songID = Math.floor(Math.random() * song_arr.length);
             let songTitle = song_arr[songID];
             let ele = document.createElement('h4');
-            ele.innerHTML = songTitle;
+            let inner = document.createElement('span')
+            inner.innerHTML = songTitle;
+            ele.appendChild(inner);
             ele.classList.add('song');
             parent.appendChild(ele);
         }
