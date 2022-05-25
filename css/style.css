@@ -88,3 +88,20 @@ body {
     text-align: center;
     padding: 40px;
   }
+
+  .dataset-h1 {
+    color: #3B2A43;
+    margin-left: 4rem;
+  }
+
+  .dataset-p {
+    margin-left: 4rem; 
+    margin-right: 4em
+  }
+
+  .dataset-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+  }
