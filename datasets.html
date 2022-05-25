@@ -19,22 +19,40 @@
 
       <h1 style="padding-top: 1.55em" class="dataset-h1">Introduction</h1>
 
-      
+      <p class="dataset-p">The dataset we used in this website consists of 19 Korean and English albums with English translated lyrics of each track. To explore the dataset, we chose to focus on these 2 questions:
+      <ul style="padding-bottom: 2em; padding-top: 0em" class="dataset-p">
+          <li>What does BTS sing about?</li>
+          <li>What is the most common mood in BTS songs (based on ARMY's opinion)?</li>
+      </ul>
+      </p>
+
       <h1 class="dataset-h1">Results</h1>
       <img class="dataset-center" src="./imgs/common_words.png" alt="most 20 frequently appeared words in all BTS songs" 
       width="600" height="400">
+      <p style="padding-top:2em" class="dataset-p">To investigate more into BTS’s lyrics, we counted the number of times each word appeared, and the bar chart above shows the first 20 most frequently appeared words in all BTS lyrics. However, even though we were able to filter out stop words like articles or prepositions, other words like “oh”, “i’m”, and “like” were still present in our bar chart, which does not provide meaningful information. </p>
 
       <img class="dataset-center" src="./imgs/mood_bar_chart.png" alt="most 20 frequently appeared words in all BTS songs" 
       width="600" height="400">
+      <p style="padding-top:2em" class="dataset-p">We also interviewed 3 ARMYs to label moods to ~200 BTS songs in our dataset. Based on their opinions, the most common mood in BTS’s music is “Energetic”. At the same time, we can see that BTS’ music is very diverse and has many songs in every mood category.</p>
       
 
       <h1 class="dataset-h1">Limitations</h1>
+      <ul style="padding-bottom: 2em; padding-top: 0em" class="dataset-p">
+        <li>The dataset only included songs in 19 albums released from 2013 to 2021, which excluded other special tracks or albums released after 2021.</li>
+        <li>BTS sings in Korean the majority of the time. The lyrics dataset was translated into English, which could have resulted in some inaccuracies in the analysis.</li>
+        <li>The mood categories and labeling were based on our own opinion and our interview with 3 ARMYs. Other ARMYs may not have the same perspectives.</li>
+      </ul>
 
+      <h1 class="dataset-h1">Future Directions</h1>
+      <ul style="padding-bottom: 2em; padding-top: 0em" class="dataset-p">
+        <li>We can evaluate the importance of every word to analyze lyrics data more accurately.</li>
+        <li>We can collect BTS lyrics data in a more automated way to be able to include newly released songs (e.g. web scraping).</li>
+      </ul>
 
-      <h1 class="dataset-h1">Notes</h1>
+      <h1 class="dataset-h1">Data Source</h1>
       <p style="padding-bottom: 4em" class="dataset-p">More details regarding the dataset can be found on the 
-          <a href="https://www.kaggle.com/code/galleonchestnut/bts-lyrics-analysis/data">Kaggle page</a>. 
-          To reproduce our results, the code can be found 
+          <a href="https://www.kaggle.com/datasets/kailic/bts-lyrics">Kaggle page</a>. 
+          To reproduce our results, the full code can be found 
           <a href="https://github.com/dorissssy/Info498A_Final_Project/tree/main/data">here</a>.</p>
 
 
