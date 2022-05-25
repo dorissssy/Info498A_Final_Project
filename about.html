@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/home.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!--icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+<body class="about-body">
     <div class="topnav">
         <a href="index.html">Home</a>
         <a href="explore.html">Explore</a>
@@ -18,11 +21,22 @@
         <a class="active" href="about.html">About BTS</a>
     </div>
 
-    <header>
-    <div>
-        <h1>About BTS</h1>
+
+    <div class="parent">
+        
+        <div class="about-center">
+            <h4 style="text-align: center; margin-top: 50px;">BTS Quote of the Day</h4>
+            
+            <div class="child" id="quote-text" style="padding:1em">
+                "Effort makes you. You will regret someday if you don’t do your best now. Don’t think it’s too late but keep working on it. It takes time, but there’s nothing that gets worse due to practicing. So practice. You may get depressed, but it’s evidence that you are doing good." - Jungkook
+            </div>
+
+            <button type="button" onClick="displayQuote()" class="mood_btn btn btn-secondary">New Quote</button>
+        </div>      
+  
     </div>
-    </header>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="js/about.js"></script>
