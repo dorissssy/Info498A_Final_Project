@@ -124,10 +124,20 @@ body {
     margin: 5px;
     height: 100px;
     background-color: transparent;
+    margin-bottom: 2.5em;
+    margin-top: 2.5em;
   }
 
 .about-body {
   background-image: url("../imgs/bts-element.png");
   background-repeat: no-repeat;
-  background-position: 100% -210%;
+  background-position: 100% -460%;
+}
+
+.about-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/ 
+  height: 4em;
 }
