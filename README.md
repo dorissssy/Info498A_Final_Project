@@ -1,3 +1,5 @@
 # Info498A_Final_Project
 
-Link to our BTS website: https://dorissssy.github.io/Info498A_Final_Project/index.html  
+Link to our BTS website: https://dorissssy.github.io/Info498A_Final_Project/
+
+We created this website to help ARMY choose which BTS’s songs to listen to by selecting their mood at the moment or a mood that they like, and get recommendations of BTS songs. We have listed out 9 emotions: chill, falling in love, energetic, inspiring, healing, sad, happy, angry, and powerful. Then, we interviewed 3 ARMYs, asked how they feel about the songs to help us label moods for about 200 BTS songs in our JSON dataset. We made the theme color purple. While BTS has no official fandom color yet, many army would say the unofficial color is purple so we decided to have purple as our website’s theme color. We designed features such as explore where users can explore BTS songs. We allow users to choose the number of songs they want to learn about. Users can also be linked to the song on YouTube and Spotify directly.

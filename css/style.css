@@ -129,15 +129,26 @@ body {
   }
 
 .about-body {
-  background-image: url("../imgs/bts-element.png");
+  background-image: url("../imgs/flower.png");
   background-repeat: no-repeat;
-  background-position: 100% -460%;
+  display: block;
+  background-size: cover;
 }
 
-.about-footer {
-  position: fixed;
+h4 {
+  text-align: center;
+}
+
+h8 {
   bottom: 0;
   width: 100%;
   /* Height of the footer*/ 
-  height: 4em;
+  height: 8em;
+  text-align: right;
+  padding-left: 45rem;
+}
+
+footer a {
+  margin-left: 100px;
+  padding-bottom: 3rem;
 }
